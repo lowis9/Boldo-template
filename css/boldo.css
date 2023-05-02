@@ -614,6 +614,12 @@ body {
   font-weight: 500;
   margin-bottom: 4rem;
 }
+@media (max-width: 991px) {
+  .our-blog h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
 .our-blog .blog-boxs {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
