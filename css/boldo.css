@@ -866,7 +866,7 @@ body {
 }
 @media (max-width: 991px) {
   .about-page h2 {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 }
 .about-page p {
@@ -874,6 +874,11 @@ body {
   font-size: 0.9rem;
   max-width: 70%;
   color: #c1c1c1;
+}
+@media (max-width: 767px) {
+  .about-page p {
+    max-width: 100%;
+  }
 }
 /* Start Img Box */
 .about.img-box {
@@ -1077,6 +1082,11 @@ body {
 .blog-page {
   border-bottom: 1px solid var(--blue-color);
 }
+@media (max-width: 767px) {
+  .blog-page {
+    height: auto
+  }
+}
 .blog-page .text-box {
   flex-direction: column;
 }
@@ -1111,7 +1121,8 @@ body {
   flex: 1
 }
 .blog-page .main-box .text-box {
-  flex: 1
+  flex: 1;
+  margin-bottom: 1rem;
 }
 .blog-page .main-box span:first-of-type {
   font-size: 0.9rem;
